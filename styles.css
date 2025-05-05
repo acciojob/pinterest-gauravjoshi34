@@ -1,13 +1,26 @@
 /*  your css code here. If applicable */
 .hero{
 	display:flex;
+	flex-direction:column;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
+	text-align:center;
+	background-color:#f0f0f0;
 }
 
-.hero button{
-	padding: 10px;
-	border-radius: 10px;
-	margin-left:30px;
-	margin-top: 100px;
+.hero img{
+	width:100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 400px;
+}
+
+.hero a{
+	padding:10px 20px;
+	background-color: red;
+	color: white;
+	border-radius:5px;
+	text-decoration:none;
+	margin-top: 20px;
 }
